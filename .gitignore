@@ -1,0 +1,10 @@
+.idea/
+install_pi.sh
+__pycache__
+*.egg-info/
+setup.sh
+stuff.txt
+audio/*
+!audio/.gitkeep
+models/*
+!models/.gitkeep
