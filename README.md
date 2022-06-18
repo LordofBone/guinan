@@ -20,6 +20,9 @@ I have made this so that I can integrate into other projects such as my upcoming
 internet access.
 
 ##### Running Guinan
+Install the requirements with:
+`pip install -r requirements.txt`
+
 Run guinan/utils/model_dowloader.py to get the pre-trained conformer model.
 
 Then you can run integrate_stt.py and seeing if it can translate speech to text (ensure you have a microphone).
