@@ -30,10 +30,14 @@ Then you can run integrate_stt.py and seeing if it can translate speech to text 
 ##### Integrating Guinan into a project
 Once cloned out from github, you can run the following command:
 
-`pip install -e guinan/`
+If you want to integrate Guinan into another system, such as a robot - you can pull down the repo into the folder of
+the project you are working on, then append the system path of the Guinan folder to the system path of the project.
 
-And this should install all dependencies.
+`guinan_dir = os.path.join( path_to_guinan )`
 
+`sys.path.append(guinan_dir)`
+
+You will also need to install everything in requirements.txt and/or add the requirements to your project's requirements.txt
 You can then go into the folder guinan/utils and run model_dowloader.py to get the pre-trained conformer model.
 
 Then you can run a test by running integrate_stt.py and seeing if it can translate speech to text 
